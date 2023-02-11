@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="manager.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="babble0000" x="0" y="0" width="683" height="1024"/>
+	<SubTexture name="babble0001" x="0" y="0" width="683" height="1024"/>
+	<SubTexture name="babble0002" x="683" y="0" width="683" height="1024"/>
+	<SubTexture name="babble0003" x="683" y="0" width="683" height="1024"/>
+	<SubTexture name="babble0004" x="0" y="1024" width="683" height="1024"/>
+	<SubTexture name="babble0005" x="0" y="1024" width="683" height="1024"/>
+</TextureAtlas>

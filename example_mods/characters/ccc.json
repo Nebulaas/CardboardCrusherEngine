@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-292,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-369,
+				-102
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-369,
+				76
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-365,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-369,
+				11
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-369,
+				11
+			],
+			"anim": "arise",
+			"fps": 24,
+			"name": "he_cometh",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-369,
+				11
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "idle-alt",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/corrupted-cc",
+	"position": [
+		-310,
+		230
+	],
+	"healthicon": "ccc",
+	"flip_x": false,
+	"healthbar_colors": [
+		20,
+		20,
+		40
+	],
+	"camera_position": [
+		200,
+		-10
+	],
+	"sing_duration": 4,
+	"scale": 1.6
+}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boom.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="explode0000" x="0" y="0" width="200" height="277"/>
+	<SubTexture name="explode0001" x="200" y="0" width="200" height="277"/>
+	<SubTexture name="explode0002" x="400" y="0" width="200" height="277"/>
+	<SubTexture name="explode0003" x="600" y="0" width="200" height="277"/>
+	<SubTexture name="explode0004" x="800" y="0" width="200" height="277"/>
+	<SubTexture name="explode0005" x="1000" y="0" width="200" height="277"/>
+	<SubTexture name="explode0006" x="1200" y="0" width="200" height="277"/>
+	<SubTexture name="explode0007" x="1400" y="0" width="200" height="277"/>
+	<SubTexture name="explode0008" x="1600" y="0" width="200" height="277"/>
+	<SubTexture name="explode0009" x="1800" y="0" width="200" height="277"/>
+	<SubTexture name="explode0010" x="0" y="277" width="200" height="277"/>
+	<SubTexture name="explode0011" x="200" y="277" width="200" height="277"/>
+	<SubTexture name="explode0012" x="400" y="277" width="200" height="277"/>
+	<SubTexture name="explode0013" x="600" y="277" width="200" height="277"/>
+	<SubTexture name="explode0014" x="800" y="277" width="200" height="277"/>
+	<SubTexture name="explode0015" x="1000" y="277" width="200" height="277"/>
+	<SubTexture name="explode0016" x="1200" y="277" width="200" height="277"/>
+	<SubTexture name="explode0017" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+	<SubTexture name="explode0018" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+	<SubTexture name="explode0019" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+	<SubTexture name="explode0020" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+	<SubTexture name="explode0021" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+	<SubTexture name="explode0022" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+	<SubTexture name="explode0023" x="1400" y="277" width="0" height="0" frameX="0" frameY="0" frameWidth="200" frameHeight="277"/>
+</TextureAtlas>

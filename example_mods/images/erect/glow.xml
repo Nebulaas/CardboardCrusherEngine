@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glow.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glow0000" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0001" x="1648" y="0" width="3455" height="1988"/>
+	<SubTexture name="glow0002" x="0" y="1988" width="3261" height="1841" frameX="-97" frameY="-74" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0003" x="3261" y="1988" width="3041" height="1628" frameX="-207" frameY="-180" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0004" x="0" y="3829" width="2688" height="1374" frameX="-384" frameY="-307" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0005" x="2688" y="3829" width="2235" height="1115" frameX="-610" frameY="-436" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0006" x="4923" y="3829" width="2182" height="1008" frameX="-637" frameY="-490" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0007" x="0" y="5203" width="1768" height="962" frameX="-844" frameY="-513" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0008" x="1768" y="5203" width="1635" height="935" frameX="-910" frameY="-526" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0009" x="3403" y="5203" width="1602" height="1068" frameX="-926" frameY="-460" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0010" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0011" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0012" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0013" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0014" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0015" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0016" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0017" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0018" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+	<SubTexture name="glow0019" x="0" y="0" width="1648" height="1121" frameX="-903" frameY="-433" frameWidth="3455" frameHeight="1988"/>
+</TextureAtlas>

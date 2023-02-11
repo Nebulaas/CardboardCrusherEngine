@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.9,
+		"stage": "storeroom",
+		"player1": "bf-iga",
+		"player2": "cardboard-crusher",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"0.3"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 152,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Freezer"
+	}
+}

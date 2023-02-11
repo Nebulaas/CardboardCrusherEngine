@@ -1,0 +1,129 @@
+{
+	"song": {
+		"speed": 3.1,
+		"stage": "7pl",
+		"player1": "big-bf",
+		"player2": "some-guy",
+		"player3": null,
+		"events": [
+			[
+				18888.8888888889,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				36666.6666666666,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				50000,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				72222.2222222221,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				89999.9999999999,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				107777.777777778,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				112222.222222222,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				125555.555555555,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				130000,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				143333.333333333,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			],
+			[
+				152222.222222222,
+				[
+					[
+						"ShelfMoveOver",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf-gone",
+		"bpm": 216,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "7 Pallet Load"
+	}
+}

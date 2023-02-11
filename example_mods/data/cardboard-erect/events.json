@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "storeroom",
+		"player1": "bf-iga",
+		"player2": "cardboard-crusher",
+		"player3": null,
+		"events": [
+			[
+				9999999999999999999,
+				[
+					[
+						"imageflash",
+						"DOWN LIGHT",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 192,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Cardboard-Erect"
+	}
+}

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfDanceTitle.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfDance0000" x="0" y="0" width="526" height="367" frameX="0" frameY="-39" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0001" x="526" y="0" width="508" height="397" frameX="-11" frameY="-9" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0002" x="1034" y="0" width="502" height="404" frameX="-14" frameY="-1" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0003" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0004" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0005" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0006" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0007" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0008" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0009" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0010" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0011" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0012" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0013" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0014" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0015" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0016" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0017" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0018" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0019" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0020" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0021" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0022" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0023" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0024" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0025" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0026" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0027" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+	<SubTexture name="gfDance0028" x="1536" y="0" width="500" height="406" frameX="-15" frameY="0" frameWidth="526" frameHeight="406"/>
+</TextureAtlas>

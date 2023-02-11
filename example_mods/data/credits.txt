@@ -1,0 +1,5 @@
+Vs Cardboard Crusher Team
+Ningymann::ningy::Main programmer, charter, artist, animator and composer::::0xFFFFDD33
+TheLegion::legion::cool main menu programmer::::0xFFFFDD33
+PatTheNoob::pat::Gold/Lost Silver soundfont I used::https://gamebanana.com/tools/7738::0xFFFFDD33
+LoganMcOof::logan::Tuned Pico soundfont I used::https://gamebanana.com/tools/7434::0xFFFFDD33

@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Cardboard",
+			"cardboard-crusher",
+			[
+				255,
+				215,
+				80
+			]
+		],
+		[
+			"Freezer",
+			"cardboard-crusher",
+			[
+				255,
+				215,
+				80
+			]
+		],
+		[
+			"Bale",
+			"cardboard-crusher",
+			[
+				255,
+				215,
+				80
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "storeroom",
+	"difficulties": "Minimum-Wage, Casual, Full-Time, Erect",
+	"weekCharacters": [
+		"menu-cc",
+		"bf",
+		"gf"
+	],
+	"storyName": "Average 19 y/o first job be like",
+	"weekName": "Cardboard",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

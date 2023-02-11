@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "gameOver",
+		"player1": "pxbf",
+		"player2": "pxcc",
+		"player3": null,
+		"events": [
+			[
+				61864.8648648649,
+				[
+					[
+						"Play Animation",
+						"bale",
+						"dad"
+					]
+				]
+			],
+			[
+				62270.2702702703,
+				[
+					[
+						"Change Character",
+						"dad",
+						"pxcc-evil"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "pxNoteSplash",
+		"validScore": false,
+		"gfVersion": "gf-gone",
+		"bpm": 185,
+		"arrowSkin": "pxNotes",
+		"needsVoices": true,
+		"song": "Game-Over"
+	}
+}

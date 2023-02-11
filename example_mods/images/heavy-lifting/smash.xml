@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="smash.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="smash0000" x="0" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0001" x="1280" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0002" x="2560" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0003" x="3840" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0004" x="5120" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0005" x="6400" y="0" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0006" x="0" y="720" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0007" x="1280" y="720" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0008" x="2560" y="720" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0009" x="3840" y="720" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0010" x="5120" y="720" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0011" x="6400" y="720" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0012" x="0" y="1440" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0013" x="1280" y="1440" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0014" x="2560" y="1440" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0015" x="3840" y="1440" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0016" x="5120" y="1440" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0017" x="6400" y="1440" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0018" x="0" y="2160" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0019" x="1280" y="2160" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0020" x="1280" y="2160" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0021" x="1280" y="2160" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0022" x="1280" y="2160" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+	<SubTexture name="smash0023" x="1280" y="2160" width="1280" height="720" frameX="0" frameY="0" frameWidth="2048" frameHeight="1024"/>
+</TextureAtlas>

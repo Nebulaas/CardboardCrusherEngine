@@ -1,0 +1,51 @@
+{
+	"songs": [
+		[
+			"Clock Off",
+			"ghost",
+			[
+				33,
+				33,
+				33
+			]
+		],
+		[
+			"Heavy Lifting",
+			"bill",
+			[
+				133,
+				133,
+				143
+			]
+		],
+		[
+			"7 Pallet Load",
+			"co-worker",
+			[
+				153,
+				153,
+				173
+			]
+		]
+
+	],
+	"hiddenUntilUnlocked": true,
+	"hideFreeplay": false,
+	"weekBackground": "storeroom",
+	"difficulties": "Overtime",
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"storyName": "like a second week but only kind of",
+	"weekName": "bonus",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "retail",
+	"startUnlocked": true
+}	

@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "storeroom-spooky",
+		"player1": "bf-iga",
+		"player2": "plastic-bag-ghost",
+		"player3": null,
+		"events": [
+			[
+				42772.2772277228,
+				[
+					[
+						"Hidden",
+						"twenty",
+						"one"
+					]
+				]
+			],
+			[
+				45148.5148514851,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"dad"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 101,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "clock-off"
+	}
+}

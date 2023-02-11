@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-165,
+				-232
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-119,
+				-231
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-174,
+				-215
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-162,
+				-239
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-171,
+				-229
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/old/baby-oc",
+	"position": [
+		-170,
+		230
+	],
+	"healthicon": "the-baby",
+	"flip_x": false,
+	"healthbar_colors": [
+		195,
+		200,
+		255
+	],
+	"camera_position": [
+		-70,
+		210
+	],
+	"sing_duration": 4,
+	"scale": 1.6
+}

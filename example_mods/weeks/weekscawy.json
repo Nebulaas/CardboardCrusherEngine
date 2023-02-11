@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Game Over",
+			"idk-lol",
+			[
+				46,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Overtime",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Epic Cover",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

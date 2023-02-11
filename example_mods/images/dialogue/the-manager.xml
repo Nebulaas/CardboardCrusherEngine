@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="the-manager.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="0" y="0" width="242" height="356"/>
+	<SubTexture name="talk0000" x="242" y="0" width="259" height="369"/>
+	<SubTexture name="talk0001" x="242" y="0" width="259" height="369"/>
+	<SubTexture name="talk0002" x="501" y="0" width="248" height="359" frameX="-6" frameY="-5" frameWidth="259" frameHeight="369"/>
+	<SubTexture name="talk0003" x="501" y="0" width="248" height="359" frameX="-6" frameY="-5" frameWidth="259" frameHeight="369"/>
+	<SubTexture name="talk0004" x="749" y="0" width="242" height="356" frameX="-9" frameY="-6" frameWidth="259" frameHeight="369"/>
+	<SubTexture name="talk0005" x="749" y="0" width="242" height="356" frameX="-9" frameY="-6" frameWidth="259" frameHeight="369"/>
+</TextureAtlas>

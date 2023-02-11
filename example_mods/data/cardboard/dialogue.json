@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "A relaxed afternoon shift is just what BF needed after an intense rapping session."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Gf also came along, knowing that her love would very happily give her a discount."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Soon, though, the manager came up to BF."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "the-manager",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey BF can you crush the cardboard please?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep bop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "none",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "As BF crushed his way through trolley after trolley of cardboard, he started to realise something."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "This cardboard crusher has perfect pitch."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "BEEEP"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep bo bop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "nice"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you know what to do bby"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "cc-possession",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "*demonic possession noises*"
+		}
+	]
+}

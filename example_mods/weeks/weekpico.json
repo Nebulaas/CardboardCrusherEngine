@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Stick Up",
+			"idk-lol",
+			[
+				120,
+				80,
+				20
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "storeroom",
+	"difficulties": "Overtime",
+	"weekCharacters": [
+		"menu-cc",
+		"pico",
+		""
+	],
+	"storyName": "aw hell nah",
+	"weekName": "weekPico",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				18,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-45,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-51,
+				55
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-50,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-51,
+				-9
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "bale",
+			"fps": 24,
+			"name": "door",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cardboard-crusher",
+	"position": [
+		-160,
+		220
+	],
+	"healthicon": "cardboard-crusher",
+	"flip_x": false,
+	"healthbar_colors": [
+		215,
+		180,
+		60
+	],
+	"camera_position": [
+		-210,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 1.6
+}

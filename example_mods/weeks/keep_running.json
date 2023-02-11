@@ -1,0 +1,31 @@
+{
+	"storyName": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"difficulties": "Overtime",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Full-Body Amputation",
+			"idk-lol",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": ""
+}

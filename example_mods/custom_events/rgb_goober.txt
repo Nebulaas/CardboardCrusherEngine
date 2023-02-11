@@ -1,0 +1,5 @@
+Value 1: set to true to turn it on, false to turn off. simple.
+
+Value 2: nothing lol
+
+Only works with dad atm might make better later

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cc-9.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="595" height="605" frameX="0" frameY="-17" frameWidth="595" frameHeight="623"/>
+	<SubTexture name="down0001" x="0" y="0" width="595" height="605" frameX="0" frameY="-17" frameWidth="595" frameHeight="623"/>
+	<SubTexture name="down0002" x="595" y="0" width="595" height="612" frameX="0" frameY="-11" frameWidth="595" frameHeight="623"/>
+	<SubTexture name="down0003" x="595" y="0" width="595" height="612" frameX="0" frameY="-11" frameWidth="595" frameHeight="623"/>
+	<SubTexture name="down0004" x="1190" y="0" width="595" height="623"/>
+	<SubTexture name="down0005" x="1190" y="0" width="595" height="623"/>
+	<SubTexture name="down0006" x="1785" y="0" width="595" height="623"/>
+	<SubTexture name="down0007" x="1785" y="0" width="595" height="623"/>
+	<SubTexture name="idle0000" x="2380" y="0" width="595" height="622" frameX="-11" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0001" x="2380" y="0" width="595" height="622" frameX="-11" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0002" x="2975" y="0" width="558" height="619" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0003" x="2975" y="0" width="558" height="619" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0004" x="3533" y="0" width="561" height="606" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0005" x="3533" y="0" width="561" height="606" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0006" x="0" y="623" width="556" height="598" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0007" x="0" y="623" width="556" height="598" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0008" x="556" y="623" width="556" height="598" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0009" x="556" y="623" width="556" height="598" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0010" x="1112" y="623" width="561" height="606" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0011" x="1112" y="623" width="561" height="606" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0012" x="1673" y="623" width="558" height="619" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0013" x="1673" y="623" width="558" height="619" frameX="0" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0014" x="2231" y="623" width="595" height="622" frameX="-11" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0015" x="2231" y="623" width="595" height="622" frameX="-11" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0016" x="2826" y="623" width="600" height="601" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0017" x="2826" y="623" width="600" height="601" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0018" x="3426" y="623" width="565" height="576" frameX="-16" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0019" x="3426" y="623" width="565" height="576" frameX="-16" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0020" x="0" y="1245" width="558" height="573" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0021" x="0" y="1245" width="558" height="573" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0022" x="558" y="1245" width="558" height="573" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0023" x="558" y="1245" width="558" height="573" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0024" x="1116" y="1245" width="565" height="576" frameX="-16" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0025" x="1116" y="1245" width="565" height="576" frameX="-16" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0026" x="1681" y="1245" width="600" height="601" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="idle0027" x="1681" y="1245" width="600" height="601" frameX="-15" frameY="0" frameWidth="615" frameHeight="622"/>
+	<SubTexture name="left0000" x="2281" y="1245" width="668" height="622"/>
+	<SubTexture name="left0001" x="2281" y="1245" width="668" height="622"/>
+	<SubTexture name="left0002" x="2949" y="1245" width="654" height="622" frameX="-14" frameY="0" frameWidth="668" frameHeight="622"/>
+	<SubTexture name="left0003" x="2949" y="1245" width="654" height="622" frameX="-14" frameY="0" frameWidth="668" frameHeight="622"/>
+	<SubTexture name="left0004" x="0" y="1867" width="639" height="622" frameX="-29" frameY="0" frameWidth="668" frameHeight="622"/>
+	<SubTexture name="left0005" x="0" y="1867" width="639" height="622" frameX="-29" frameY="0" frameWidth="668" frameHeight="622"/>
+	<SubTexture name="left0006" x="639" y="1867" width="639" height="622" frameX="-29" frameY="0" frameWidth="668" frameHeight="622"/>
+	<SubTexture name="left0007" x="639" y="1867" width="639" height="622" frameX="-29" frameY="0" frameWidth="668" frameHeight="622"/>
+	<SubTexture name="right0000" x="1278" y="1867" width="680" height="622"/>
+	<SubTexture name="right0001" x="1278" y="1867" width="680" height="622"/>
+	<SubTexture name="right0002" x="1958" y="1867" width="645" height="622" frameX="0" frameY="0" frameWidth="680" frameHeight="622"/>
+	<SubTexture name="right0003" x="1958" y="1867" width="645" height="622" frameX="0" frameY="0" frameWidth="680" frameHeight="622"/>
+	<SubTexture name="right0004" x="2603" y="1867" width="633" height="622" frameX="0" frameY="0" frameWidth="680" frameHeight="622"/>
+	<SubTexture name="right0005" x="2603" y="1867" width="633" height="622" frameX="0" frameY="0" frameWidth="680" frameHeight="622"/>
+	<SubTexture name="right0006" x="3236" y="1867" width="633" height="622" frameX="0" frameY="0" frameWidth="680" frameHeight="622"/>
+	<SubTexture name="right0007" x="3236" y="1867" width="633" height="622" frameX="0" frameY="0" frameWidth="680" frameHeight="622"/>
+	<SubTexture name="troll0000" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0001" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0002" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0003" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0004" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0005" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0006" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0007" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0008" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0009" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0010" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0011" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0012" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0013" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0014" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0015" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0016" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0017" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0018" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0019" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0020" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0021" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0022" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0023" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0024" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0025" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0026" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0027" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0028" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0029" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0030" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0031" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0032" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0033" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0034" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0035" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0036" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0037" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0038" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0039" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0040" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0041" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0042" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0043" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0044" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0045" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0046" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0047" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0048" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0049" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0050" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0051" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0052" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0053" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0054" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0055" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0056" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0057" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0058" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0059" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0060" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0061" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0062" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0063" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0064" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0065" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0066" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0067" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0068" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0069" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0070" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0071" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0072" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0073" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0074" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0075" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0076" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0077" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0078" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0079" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0080" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0081" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0082" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0083" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0084" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0085" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0086" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0087" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0088" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0089" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0090" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0091" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0092" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0093" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0094" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0095" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0096" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0097" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0098" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0099" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0100" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0101" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0102" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0103" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0104" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0105" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0106" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0107" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0108" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0109" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0110" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0111" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0112" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0113" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0114" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0115" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0116" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0117" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0118" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0119" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0120" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0121" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0122" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0123" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0124" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0125" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0126" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0127" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0128" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0129" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0130" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0131" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0132" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0133" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0134" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0135" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0136" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0137" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0138" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0139" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0140" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0141" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0142" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0143" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0144" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0145" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0146" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0147" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0148" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0149" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0150" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0151" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0152" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0153" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0154" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0155" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0156" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0157" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0158" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0159" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0160" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0161" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0162" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0163" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0164" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0165" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0166" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0167" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0168" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0169" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0170" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0171" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0172" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0173" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0174" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0175" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0176" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0177" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0178" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0179" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0180" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0181" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0182" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0183" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0184" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0185" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0186" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0187" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0188" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0189" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0190" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0191" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0192" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0193" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0194" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0195" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0196" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0197" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0198" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0199" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0200" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0201" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0202" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0203" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0204" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0205" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0206" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0207" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0208" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0209" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0210" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0211" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0212" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0213" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0214" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0215" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0216" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0217" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0218" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0219" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0220" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0221" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0222" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0223" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0224" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0225" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0226" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0227" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0228" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0229" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0230" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0231" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0232" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0233" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0234" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0235" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0236" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0237" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0238" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0239" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0240" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0241" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0242" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0243" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0244" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0245" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0246" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0247" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0248" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0249" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0250" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0251" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0252" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0253" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0254" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0255" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0256" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0257" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0258" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0259" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0260" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0261" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0262" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="troll0263" x="0" y="2489" width="595" height="622"/>
+	<SubTexture name="up0000" x="595" y="2489" width="595" height="672"/>
+	<SubTexture name="up0001" x="595" y="2489" width="595" height="672"/>
+	<SubTexture name="up0002" x="1190" y="2489" width="595" height="640" frameX="0" frameY="-32" frameWidth="595" frameHeight="672"/>
+	<SubTexture name="up0003" x="1190" y="2489" width="595" height="640" frameX="0" frameY="-32" frameWidth="595" frameHeight="672"/>
+	<SubTexture name="up0004" x="1785" y="2489" width="595" height="634" frameX="0" frameY="-38" frameWidth="595" frameHeight="672"/>
+	<SubTexture name="up0005" x="1785" y="2489" width="595" height="634" frameX="0" frameY="-38" frameWidth="595" frameHeight="672"/>
+	<SubTexture name="up0006" x="2380" y="2489" width="595" height="634" frameX="0" frameY="-38" frameWidth="595" frameHeight="672"/>
+	<SubTexture name="up0007" x="2380" y="2489" width="595" height="634" frameX="0" frameY="-38" frameWidth="595" frameHeight="672"/>
+</TextureAtlas>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="theHole.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fall0000" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="fall0001" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="fall0002" x="1280" y="0" width="1280" height="720"/>
+	<SubTexture name="fall0003" x="1280" y="0" width="1280" height="720"/>
+	<SubTexture name="fall0004" x="2560" y="0" width="1280" height="720"/>
+	<SubTexture name="fall0005" x="2560" y="0" width="1280" height="720"/>
+	<SubTexture name="fall0006" x="0" y="720" width="1280" height="720"/>
+	<SubTexture name="fall0007" x="0" y="720" width="1280" height="720"/>
+	<SubTexture name="fall0008" x="1280" y="720" width="1280" height="720"/>
+	<SubTexture name="fall0009" x="1280" y="720" width="1280" height="720"/>
+	<SubTexture name="fall0010" x="2560" y="720" width="1280" height="720"/>
+	<SubTexture name="fall0011" x="2560" y="720" width="1280" height="720"/>
+	<SubTexture name="fall0012" x="0" y="1440" width="1280" height="720"/>
+	<SubTexture name="fall0013" x="0" y="1440" width="1280" height="720"/>
+	<SubTexture name="fall0014" x="1280" y="1440" width="1280" height="720"/>
+	<SubTexture name="fall0015" x="1280" y="1440" width="1280" height="720"/>
+</TextureAtlas>

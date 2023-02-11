@@ -1,0 +1,149 @@
+{
+	"song": {
+		"speed": 1,
+		"stage": "storeroom",
+		"player1": "bf-iga",
+		"player2": "cardboard-crusher",
+		"player3": null,
+		"events": [
+			[
+				5000,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"3"
+					]
+				]
+			],
+			[
+				95000,
+				[
+					[
+						"Cam Boom Speed",
+						"4",
+						"1.5"
+					]
+				]
+			],
+			[
+				95000,
+				[
+					[
+						"I wonder if there should be Hidden here",
+						"",
+						""
+					]
+				]
+			],
+			[
+				130000,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"3"
+					]
+				]
+			],
+			[
+				130000,
+				[
+					[
+						"HiddenOff",
+						"",
+						""
+					]
+				]
+			],
+			[
+				138750,
+				[
+					[
+						"Cam Boom Speed",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				140000,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"4.2"
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Cam Boom Speed",
+						"4",
+						"1.5"
+					]
+				]
+			],
+			[
+				170000,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"4.2"
+					]
+				]
+			],
+			[
+				190000,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"4.5"
+					]
+				]
+			],
+			[
+				198750,
+				[
+					[
+						"Cam Boom Speed",
+						"1",
+						"5"
+					]
+				]
+			],
+			[
+				200000,
+				[
+					[
+						"Cam Boom Speed",
+						"8",
+						"1.5"
+					]
+				]
+			],
+			[
+				199899,
+				[
+					[
+						"Play Sound",
+						"explode",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 192,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Bale-Erect"
+	}
+}

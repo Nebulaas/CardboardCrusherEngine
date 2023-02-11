@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "storeroom-nightmare",
+		"player1": "bf-iga",
+		"player2": "nightmare-crusher",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"3"
+					]
+				]
+			],
+			[
+				119069.76744186,
+				[
+					[
+						"Hidden",
+						"1",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf-gone",
+		"bpm": 193.5,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Fired"
+	}
+}

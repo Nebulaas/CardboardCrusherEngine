@@ -1,0 +1,79 @@
+{
+	"song": {
+		"speed": 3.1,
+		"stage": "storeroom",
+		"player1": "bf-iga",
+		"player2": "cardboard-crusher",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Cam Boom Speed",
+						"4",
+						"0.5"
+					]
+				]
+			],
+			[
+				4848.48484848485,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				92121.2121212123,
+				[
+					[
+						"Cam Boom Speed",
+						"4",
+						"2"
+					]
+				]
+			],
+			[
+				126060.606060606,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"1.5"
+					]
+				]
+			],
+			[
+				164848.484848485,
+				[
+					[
+						"Cam Boom Speed",
+						"2",
+						"2.5"
+					]
+				]
+			],
+			[
+				999999999,
+				[
+					[
+						"DodgeEvent",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 198,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Bale"
+	}
+}

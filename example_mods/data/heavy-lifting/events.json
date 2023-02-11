@@ -1,0 +1,69 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "freezer-aisle",
+		"player1": "bf-iga",
+		"player2": "bill",
+		"player3": null,
+		"events": [
+			[
+				209527.514687052,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			 [
+				148820.629660315,
+				[
+					[
+						"Play Animation",
+						"singUPmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				209783.629660315,
+				[
+					[
+						"Play Sound",
+						"descend",
+						"1"
+					]
+				]
+			],
+			[
+				231004.787414325,
+				[
+					[
+						"Play Animation",
+						"punch",
+						"dad"
+					]
+				]
+			],
+			[
+				232393.196505234,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 142,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Heavy-Lifting"
+	}
+}
