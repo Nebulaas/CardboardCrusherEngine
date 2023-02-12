@@ -21,6 +21,11 @@ import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 
+import flixel.input.mouse.FlxMouseEventManager;
+import flixel.input.mouse.FlxMouseButton;
+import flixel.input.mouse.FlxMouse;
+
+
 using StringTools;
 
 class MainMenuState extends MusicBeatState
@@ -42,6 +47,7 @@ class MainMenuState extends MusicBeatState
 		'options'
 	];
 
+	var menuItem:FlxSprite;	
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
@@ -50,6 +56,7 @@ class MainMenuState extends MusicBeatState
 	override function create()
 	{
 		FlxG.mouse.visible = true;
+		FlxMouseEventManager.init();
 
 		#if MODS_ALLOWED
 		Paths.pushGlobalMods();
@@ -74,26 +81,6 @@ class MainMenuState extends MusicBeatState
 		transOut = FlxTransitionableState.defaultTransOut;
 
 		persistentUpdate = persistentDraw = true;
-
-		// var optionTexts:Array<String> = 
-		// [
-		// 	'OptText1',
-		// 	'OptText2',
-		// 	'OptText3',
-		// 	'OptText4',
-		// 	'OptText5'
-		// ];
-
-		// var optText:FlxSprite = new FlxSprite(0).loadGraphic(Paths.image(i));
-		// switch(i) {
-		// 	case 0:
-		// 	case 1:
-		// 	case 2:
-		// 	case 3:
-		// 	case 4:
-		// }
-
-
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
@@ -163,6 +150,39 @@ class MainMenuState extends MusicBeatState
 					menuItem.setPosition(37.5, 185); //options
 			}
 		}
+		
+		var optText:FlxSprite;
+		
+		switch(FlxG.random.int(0, 4)) {
+    		case 0:
+        		optText = new FlxSprite(-650, -150).loadGraphic(Paths.image('optText1'));
+				add(optText);
+				optText.scale.x = 0.45;
+				optText.scale.y = 0.45;
+    		case 1:
+        		optText = new FlxSprite(-650, -150).loadGraphic(Paths.image('optText2'));
+				add(optText);
+				optText.scale.x = 0.45;
+				optText.scale.y = 0.45;
+			case 2:
+				optText = new FlxSprite(-650, -150).loadGraphic(Paths.image('optText3'));
+				add(optText);
+				optText.scale.x = 0.45;
+				optText.scale.y = 0.45;
+			case 3:
+				optText = new FlxSprite(-650, -150).loadGraphic(Paths.image('optText4'));
+				add(optText);
+				optText.scale.x = 0.45;
+				optText.scale.y = 0.45;
+			case 4:
+				optText = new FlxSprite(-560, -90).loadGraphic(Paths.image('optText5'));
+				add(optText);
+				optText.scale.x = 0.45;
+				optText.scale.y = 0.45;
+				//37.5, 230
+			optText.updateHitbox();
+			//optText.screenCenter(XY);
+			}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
@@ -216,6 +236,39 @@ class MainMenuState extends MusicBeatState
 
 		//var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		//camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
+
+		// function mousePressedCallback(sprite:FlxSprite) 
+		// 	{
+		// 		if (FlxG.mouse.justPressed)
+		// 		{
+		// 			menuItems.forEach(function(spr:FlxSprite) {
+		// 				FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
+		// 					{
+		// 						var daChoice:String = optionShit[curSelected];
+	
+		// 						switch (daChoice)
+		// 						{
+		// 							case 'story_mode':
+		// 								MusicBeatState.switchState(new StoryMenuState());
+		// 							case 'freeplay':
+		// 								MusicBeatState.switchState(new FreeplayState());
+		// 							case 'awards':
+		// 								MusicBeatState.switchState(new AchievementsMenuState());
+		// 							case 'credits':
+		// 								MusicBeatState.switchState(new CreditsState());
+		// 							case 'options':
+		// 								LoadingState.loadAndSwitchState(new options.OptionsState());
+		// 						}
+		// 					});
+		// 			});
+		// 		}
+		// 	}
+	
+		// 	function mouseReleasedCallback(sprite:FlxSprite) {}
+
+		// 	var pixelPerfect = false;
+		// 	FlxMouseEventManager.add(menuItem, mousePressedCallback, mouseReleasedCallback, null, null, false, true, pixelPerfect, [FlxMouseButtonID.LEFT]);
+	
 
 		if (!selectedSomethin)
 		{
@@ -275,10 +328,6 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
-									#if MODS_ALLOWED
-									case 'mods':
-										MusicBeatState.switchState(new ModsMenuState());
-									#end
 									case 'awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
@@ -291,6 +340,7 @@ class MainMenuState extends MusicBeatState
 					});
 				}
 			}
+	
 			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys))
 			{
