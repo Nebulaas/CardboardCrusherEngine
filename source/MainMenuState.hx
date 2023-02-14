@@ -52,6 +52,7 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var hoverSelected:Int;
 
 	override function create()
 	{
@@ -237,6 +238,7 @@ class MainMenuState extends MusicBeatState
 		//var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		//camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
+		//TEMP CODE
 		// function mousePressedCallback(sprite:FlxSprite) 
 		// 	{
 		// 		if (FlxG.mouse.justPressed)
@@ -350,12 +352,41 @@ class MainMenuState extends MusicBeatState
 			#end
 		}
 
-		super.update(elapsed);
-
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			//spr.screenCenter(X);
+			if (FlxG.mouse.overlaps(spr)) {
+				hoverSelected = spr.ID;
+
+				spr.animation.play('selected');
+				
+				if (!selectedSomethin)
+				{		
+
+					if (FlxG.mouse.justPressed) {
+							
+						selectedSomethin = true;
+						FlxG.sound.play(Paths.sound('confirmMenu'));
+						switch (hoverSelected) {						
+							case 0:
+								MusicBeatState.switchState(new StoryMenuState());
+							case 1:
+								MusicBeatState.switchState(new FreeplayState());
+							case 2:
+								MusicBeatState.switchState(new AchievementsMenuState());
+							case 3:
+								MusicBeatState.switchState(new CreditsState());
+							case 4:
+								LoadingState.loadAndSwitchState(new options.OptionsState());
+						}
+					}
+				}
+			}
+			else {
+				spr.animation.play('idle');
+			}
 		});
+
+		super.update(elapsed);
 	}
 
 	function changeItem(huh:Int = 0)
