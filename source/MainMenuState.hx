@@ -53,11 +53,11 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 	var hoverSelected:Int;
+	var computerArea:FlxSprite;
 
 	override function create()
 	{
 		FlxG.mouse.visible = true;
-		FlxMouseEventManager.init();
 
 		#if MODS_ALLOWED
 		Paths.pushGlobalMods();
@@ -82,6 +82,11 @@ class MainMenuState extends MusicBeatState
 		transOut = FlxTransitionableState.defaultTransOut;
 
 		persistentUpdate = persistentDraw = true;
+
+		var computerArea = new FlxSprite(-200,-260);
+		computerArea.makeGraphic(400, 430, FlxColor.WHITE);
+		add(computerArea);
+		computerArea.updateHitbox();
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
@@ -238,40 +243,6 @@ class MainMenuState extends MusicBeatState
 		//var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		//camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
-		//TEMP CODE
-		// function mousePressedCallback(sprite:FlxSprite) 
-		// 	{
-		// 		if (FlxG.mouse.justPressed)
-		// 		{
-		// 			menuItems.forEach(function(spr:FlxSprite) {
-		// 				FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
-		// 					{
-		// 						var daChoice:String = optionShit[curSelected];
-	
-		// 						switch (daChoice)
-		// 						{
-		// 							case 'story_mode':
-		// 								MusicBeatState.switchState(new StoryMenuState());
-		// 							case 'freeplay':
-		// 								MusicBeatState.switchState(new FreeplayState());
-		// 							case 'awards':
-		// 								MusicBeatState.switchState(new AchievementsMenuState());
-		// 							case 'credits':
-		// 								MusicBeatState.switchState(new CreditsState());
-		// 							case 'options':
-		// 								LoadingState.loadAndSwitchState(new options.OptionsState());
-		// 						}
-		// 					});
-		// 			});
-		// 		}
-		// 	}
-	
-		// 	function mouseReleasedCallback(sprite:FlxSprite) {}
-
-		// 	var pixelPerfect = false;
-		// 	FlxMouseEventManager.add(menuItem, mousePressedCallback, mouseReleasedCallback, null, null, false, true, pixelPerfect, [FlxMouseButtonID.LEFT]);
-	
-
 		if (!selectedSomethin)
 		{
 			if (controls.UI_UP_P)
@@ -299,8 +270,8 @@ class MainMenuState extends MusicBeatState
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
 				}
-				else
-				{
+				else if (curSelected != -1)
+				{	
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 
@@ -356,6 +327,7 @@ class MainMenuState extends MusicBeatState
 		{
 			if (FlxG.mouse.overlaps(spr)) {
 				hoverSelected = spr.ID;
+				curSelected = -1;
 
 				spr.animation.play('selected');
 				
@@ -381,7 +353,7 @@ class MainMenuState extends MusicBeatState
 					}
 				}
 			}
-			else {
+			else if (!FlxG.mouse.overlaps(spr) && spr.ID != curSelected) {
 				spr.animation.play('idle');
 			}
 		});
