@@ -11,26 +11,57 @@ using StringTools;
 
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
-		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
-		["She Calls Me Daddy Too",		"Beat Week 1 on Hard with no Misses.",				'week1_nomiss',			false],
-		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",				'week2_nomiss',			false],
-		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",				'week3_nomiss',			false],
-		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",				'week4_nomiss',			false],
-		["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",				'week5_nomiss',			false],
-		["Highscore!!",					"Beat Week 6 on Hard with no Misses.",				'week6_nomiss',			false],
-		["God Effing Damn It!",			"Beat Week 7 on Hard with no Misses.",				'week7_nomiss',			false],
+		//CC ACHIEVEMENTS
+		["Employee of the Month",	"Beat the Cardboard Crusher week on Hard with no misses.",	'cc_hard_nomiss',	false],
+		["Employee of the Year",	"Beat the Cardboard Crusher week on Erect with no misses.",	'cc_erect_nomiss',	false],
+		["Overtime Aficionado",		"Beat the bonus week with no misses.",						'cc_bonus_nomiss',	false],
+		["Shining Example",			"Fill every bean in 7 Pallet Load.",						'cc_allbeans',		false],
+		["Pinnacle of Terrible",	"Miss every bean in 7 Pallet load.",						'cc_nobeans',		false],
+		["Malfunction",				"Beat Fired.",												'cc_fired',			false],
+		["Shoplifter",				"Destroy the Cardboard Crusher in Stick-Up.",				'cc_iskill',		false],
+		["Pacifist",				"Don't harm the Cardboard Crusher in Stick-Up.",			'cc_islive',		false],
+		["Bale'd",					"Die to a bale in either Bale or Fired.",					'cc_bale_1',		false],
+		["Diagnosis: Skill Issue",	"Die to a bale 50 times in either Bale or Fired.",			'cc_bale_50',		false],
+		["Please go outside.",		"Die to a bale 500 times in either Bale or Fired.",			'cc_bale_500',		true],
+		["What.. even?",			"Discover the Baby",										'cc_baby',			true],
+
+		// ["Freaky on a Friday Night",		"Play on a Friday... Night.",						'friday_night_play',	 true],
+		// ["She Calls Me Daddy Too",		"Beat Week 1 on Hard with no Misses.",				'week1_nomiss',			false],
+		// ["No More Tricks",				"Beat Week 2 on Hard with no Misses.",				'week2_nomiss',			false],
+		// ["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",				'week3_nomiss',			false],
+		// ["Lady Killer",					"Beat Week 4 on Hard with no Misses.",				'week4_nomiss',			false],
+		// ["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",				'week5_nomiss',			false],
+		// ["Highscore!!",					"Beat Week 6 on Hard with no Misses.",				'week6_nomiss',			false],
+		// ["God Effing Damn It!",			"Beat Week 7 on Hard with no Misses.",				'week7_nomiss',			false],
+		// ["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",			'roadkill_enthusiast',	false],
+		// ["Debugger",						"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true]
 		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
 		["Perfectionist",				"Complete a Song with a rating of 100%.",			'ur_good',				false],
-		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",			'roadkill_enthusiast',	false],
 		["Oversinging Much...?",		"Hold down a note for 10 seconds.",					'oversinging',			false],
 		["Hyperactive",					"Finish a Song without going Idle.",				'hype',					false],
 		["Just the Two of Us",			"Finish a Song pressing only two keys.",			'two_keys',				false],
-		["Toaster Gamer",				"Have you tried to run the game on a toaster?",		'toastie',				false],
-		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true]
+		["Toaster Gamer",				"Have you tried to run the game on a toaster?",		'toastie',				false]
+
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 
 	public static var henchmenDeath:Int = 0;
+
+	// CC ACHIEVEMENT VARS
+	public static var ccHardNoMiss:Bool = false;
+	public static var ccErectNoMiss:Bool = false;
+	public static var ccBonusNoMiss:Bool = false;
+	public static var ccFiredWin:Bool = false;
+	public static var ccAllBeans:Bool = false;
+	public static var ccNoBeans:Bool = true;
+	public static var ccCrusherHit:Bool = false;
+	public static var ccCrusherKill:Bool = false;
+	public static var ccBabyFind:Bool = false;
+	public static var ccBalesHit:Int = 0;
+
+	
+
+
 	public static function unlockAchievement(name:String):Void {
 		FlxG.log.add('Completed achievement "' + name +'"');
 		achievementsMap.set(name, true);

@@ -5257,43 +5257,52 @@ class PlayState extends MusicBeatState
 				}
 				switch(achievementName)
 				{
-					case 'ur_bad':
-						if(ratingPercent < 0.2 && !practiceMode) {
+					case 'cc_hard_nomiss':
+						if(Achievements.ccHardNoMiss) {
 							unlock = true;
 						}
-					case 'ur_good':
-						if(ratingPercent >= 1 && !usedPractice) {
+					case 'cc_erect_nomiss':
+						if(Achievements.ccErectNoMiss) {
 							unlock = true;
 						}
-					case 'roadkill_enthusiast':
-						if(Achievements.henchmenDeath >= 100) {
+					case 'cc_bonus_nomiss':
+						if(Achievements.ccBonusNoMiss) {
 							unlock = true;
 						}
-					case 'oversinging':
-						if(boyfriend.holdTimer >= 10 && !usedPractice) {
+					case 'cc_allbeans':
+						if(Achievements.ccAllBeans) {
 							unlock = true;
 						}
-					case 'hype':
-						if(!boyfriendIdled && !usedPractice) {
+					case 'cc_nobeans':
+						if(Achievements.ccNoBeans) {
 							unlock = true;
 						}
-					case 'two_keys':
-						if(!usedPractice) {
-							var howManyPresses:Int = 0;
-							for (j in 0...keysPressed.length) {
-								if(keysPressed[j]) howManyPresses++;
-							}
-
-							if(howManyPresses <= 2) {
-								unlock = true;
-							}
-						}
-					case 'toastie':
-						if(/*ClientPrefs.framerate <= 60 &&*/ !ClientPrefs.shaders && ClientPrefs.lowQuality && !ClientPrefs.globalAntialiasing) {
+					case 'cc_fired':
+						if(Achievements.ccFiredWin) {
 							unlock = true;
 						}
-					case 'debugger':
-						if(Paths.formatToSongPath(SONG.song) == 'test' && !usedPractice) {
+					case 'cc_iskill':
+						if(Achievements.ccCrusherKill) {
+							unlock = true;
+						}
+					case 'cc_islive':
+						if(!Achievements.ccCrusherHit) {
+							unlock = true;
+						}
+					case 'cc_bale_1':
+						if(Achievements.ccBalesHit == 1) {
+							unlock = true;
+						}
+					case 'cc_bale_50':
+						if(Achievements.ccBalesHit == 50) {
+							unlock = true;
+						}
+					case 'cc_bale_500':
+						if(Achievements.ccBalesHit == 500) {
+							unlock = true;
+						}
+					case 'cc_baby':
+						if(Achievements.ccBabyFind) {
 							unlock = true;
 						}
 				}
